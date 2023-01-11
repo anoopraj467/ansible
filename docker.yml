@@ -74,7 +74,7 @@
 
       docker_login:
 
-        registry: http://20.127.187.74:8085/
+        registry: http://20.127.187.74:8081/
 
         username: admin
 
