@@ -67,17 +67,3 @@
         state: latest
 
         update_cache: true
-
-   
-
-    - name: Log into private registry and force re-authorization
-
-      docker_login:
-
-        registry: http://20.127.187.74:8081/
-
-        username: admin
-
-        password: anoop
-
-        reauthorize: yes
